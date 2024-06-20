@@ -9,8 +9,10 @@ import { notFound, errorHandle } from './middleware/errorMiddleware.js';
 const PORT = process.env.PORT || 5000;
 
 const app = express();
-connectDB()
+connectDB();
 
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 app.use('/api/users', userRoutes);
 
 app.use(notFound);
