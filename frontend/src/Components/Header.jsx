@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <div className="navbar bg-white px-56 m-auto">
+    <div className="navbar bg-white flex justify-around md:px-56 m-auto">
       <div className="flex-1">
         <a className="btn btn-ghost text-xl text-blue-800">Pretx</a>
       </div>
