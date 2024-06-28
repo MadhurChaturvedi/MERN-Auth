@@ -3,7 +3,7 @@ import Hero from '../Components/Hero'
 
 function HomeScreen() {
   return (
-    <div  className=' m-auto flex items-center justify-center w-full h-svh bg-white'>
+    <div style={{ overflowY:'hidden'}}  className=' m-auto flex items-center justify-center w-full h-svh bg-white'>
       <Hero />
     </div>
   )

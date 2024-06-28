@@ -9,13 +9,13 @@ function Header() {
       </div>
       <div className="flex-none gap-5 flex">
         <Link
-          to="/"
+          to="/login"
           className="uppercase text-gray-800 hover:text-blue-600 transition-all"
         >
           Login
         </Link>
         <Link
-          to="/"
+          to="/register"
           className="uppercase text-gray-800 hover:text-blue-600 transition-all"
         >
           Register
